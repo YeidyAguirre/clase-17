@@ -1,0 +1,423 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+body { 
+  background-color:#ebebeb; 
+  font-family: 'Roboto', sans-serif;
+  /* Usar la fuente de google*/
+}
+
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding:20px 0
+}
+
+.top-header{
+  background-color:#EAC926;
+  padding:20px;
+  top:0; 
+}
+
+.top-header .container .row{
+  align-items: center;
+}
+
+
+div.top-header p{
+  width: 300%;
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap; 
+  
+}
+
+
+header div.log,
+  header .form{
+  width:20%;
+}
+
+header div.logo{
+  padding:10px;
+
+}
+ div.logo img{
+  width:100%;
+  text-align: left;
+  margin: 3% auto
+ }
+
+ .input.input{
+  height:25px;
+  width:100%;
+ }
+
+ .form-button{
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;    
+  line-height:10px;
+  z-index: 1000;
+  width: 100%;
+  justify-content: center;
+  background-color: #007bff;
+  border-color: #007bff;
+  margin-top:20px;
+ }
+
+ header .form{
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  font-size: 11px;
+}
+
+.copy-header p{
+  font-weight:400;
+  text-align:right;
+  font-size:15px;
+}
+
+.Login-User.row{
+  justify-content:space-around;;
+  align-items:center;
+  display:flex;
+  border-collapse: separate;
+  border-spacing:  5px 15px;
+  flex-direction: column;
+ 
+}
+.input-login {
+  width: 100%;
+}
+
+/*------ formulario -------*/
+main.login-user{
+  margin:0;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+.label{
+  height:130px;
+}
+
+.div-form-group{
+  height: auto;
+  padding: 12px;
+  margin-top: 15px;
+  box-sizing: border-box;
+}
+
+.main.register-User{
+display: flex;
+width: 30%;
+margin-top:20px;
+
+
+/* ------------------- */
+}
+
+section.banner img{
+  width:100%;
+}
+
+@media(min-width:360px){
+  header content footer{
+ width:100%
+ }
+}
+
+.main-navbar{
+  display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-navbar ul{
+  display: flex;
+  list-style-type: none; 
+}
+
+.main-navbar ul:hover{
+color:#007bff;
+}
+
+ul.main-naivar{
+  list-style-type: none;
+  font-size: 15px; 
+}
+
+.main-navbar li{
+  margin: 0 15px;
+ }
+
+.main-navbar a{
+  text-decoration: none;
+  color: #222;
+  display: inline-block;
+  padding: 5px 0;
+  font-size:17px;
+}
+  
+.right-navbar li a{
+  display: flex;
+  font-size:15px;
+  color:#000;
+    }
+  
+    .right-navbar li a:hover{
+      color:#007bff;
+    }
+
+.right-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center;
+}
+
+input.form-control{
+    height: 40px;
+    max-height: 80%;
+    justify-content: space-around;
+    border-width: 1px;
+    margin-top: 20px;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+  .burger-menu {
+    text-align: center;
+    padding-bottom: 12px;
+  }
+  
+  .burger-menu i {
+    color: #ebebeb;
+    background-color: #1259c3;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 18px;
+  } 
+
+section.baner img{
+  width:100%;
+}
+
+  /*Boton carrito de compras*/
+
+  .shipping i{
+    color: Green;
+    font-size:20px;
+    border:solid 1px Green;
+    border-radius:50%;
+    padding:5%;
+    text-align:right;
+    right: -400px;
+    position: relative;
+    transition: transform 0.5s;
+    margin-left: 10px;
+    }
+
+    article:hover i{
+      transform: rotate(-90deg);
+    }
+
+  @media (min-widht:768px) {
+    main section div.products article content.sidebar{
+      width:90%;
+      margin: 0 auto;
+      font-size: 24px;
+    }
+  }
+
+.copy-header{
+  text-align:right;
+}
+
+header nav{
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+  header nav.link{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .burger-menu{
+    display: none;
+  }
+
+  .Login-User.row{
+   display: none;
+  }
+
+  @media(min-width:1200px){
+    .top-header.copy-header.main-navbar.right-navbar{
+    max-width: 1200px;
+    margin:auto;
+    }
+  }
+  
+  .row{
+    justify-content: space-between;
+  }
+
+  .main-footer.container.row p{
+    border-collapse: separate;
+    border-spacing:  5px;
+    align-items: center;
+  }
+
+  .prod-ofert-{
+    width:24%;
+  }
+
+  .prod-ofert-{
+    border: solid 4px rgba(17,2,24,0.3);
+    width: 500px;
+    text-align:0;
+    margin:auto;
+    margin-top:24px;
+    margin-bottom:24px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.55);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.55);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.55);
+  }
+  
+  .prod-ofert-img{
+    height: 490px;
+    border-radius: 25px 25px 0 0;
+    margin-top: 3px;
+    justify-content: center; 
+  }
+
+  .p{
+    margin-left: 16px;
+    padding:4px 0 6px 0; 
+    text-align: center; 
+  }
+  
+  .prod-ult-{
+    border: solid 4px rgba(17,2,24,0.3);
+    width: 500px;
+    text-align: center;
+    margin:auto;
+    margin-top:24px;
+    margin-bottom:24px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.55);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.55);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.55);
+  }
+  
+  .prod-ult-img{
+    height: 600px;
+    border-radius: 25px 25px 0 0;
+    margin-top: 3px;
+    justify-content: center;
+  }
+  
+  .prod-ult-container{
+    text-align: center;
+  }
+  
+  .prod-ult-h2{
+    padding:50px;
+  }
+  
+  .prod-ult-h4{
+    padding:4px 0 4px 0;
+    margin-left: 16px;
+    
+  }
+  .prod-ult-p{
+    margin-left: 16px;
+    padding:4px 0 6px 0;
+  }
+  
+  div.shipping{
+    width: 0.5em;
+    height:130px;
+    padding: 12px;
+  }
+
+  .descuentos{
+    color:#39b54a;
+    font-size: 15px;
+    padding-top:5px;
+    float: left;
+  }
+
+  .precios{
+    width: 10vw;
+    font-size:20px;
+    float: left;
+  }
+   .p{
+    font-size: 20px;
+    font-weight: 400;
+   }
+  
+/*------main-footer(pie de pagina)------*/
+
+
+/* .row-footer{ 
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    font-size:30px;
+}
+
+.footer-menu{
+  display:table cell;
+  padding:10px;
+  margin-bottom:15px;
+}
+/*  */
+
+i.fa-credit-card:hover{
+  color:#39b54a;
+}
+ 
+.fa-gift:hover{
+  color:#39b54a;
+}
+
+.fa-user-shield:hover{
+  color:#39b54a;
+}
+
+.footer-bottom{
+  font-size: 25px;
+  text-align: center;
+  font-weight: 500px;
+  margin-bottom: 15px;
+}
+
+  .icon-creditcard{
+    font-size:30px;
+    text-align:center;
+  }
+ 
+  .icon-shipping{
+    font-size: 30px;
+    text-align:center;
+  }
+
+  .icon-shield{
+   font-size:30px;
+   text-align:center;
+  }
